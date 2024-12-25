@@ -37,7 +37,18 @@ The dataset includes the following columns:
 ---
 
 ## Project Structure
-. ├── data │ ├── generated_dataset.csv # Generated dataset ├── scripts │ ├── data_generation.py # Script to generate dataset │ ├── data_analysis.py # Script to analyze data and generate insights ├── visualizations │ ├── demographics_analysis.png # Visualizations of demographics │ ├── program_interest.png # Visualizations of program interest ├── reports │ ├── lead_analysis_report.docx # Final analysis report ├── README.md # Project documentation
+.
+├── data
+│   ├── generated_dataset.csv       # Generated dataset
+├── scripts
+│   ├── data_generation.py          # Script to generate dataset
+│   ├── data_analysis.py            # Script to analyze data and generate insights
+├── visualizations
+│   ├── demographics_analysis.png   # Visualizations of demographics
+│   ├── program_interest.png        # Visualizations of program interest
+├── reports
+│   ├── lead_analysis_report.docx   # Final analysis report
+├── README.md                       # Project documentation
 
 ---
 
