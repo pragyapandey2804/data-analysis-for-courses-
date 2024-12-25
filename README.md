@@ -37,24 +37,27 @@ The dataset includes the following columns:
 ---
 
 ## Project Structure
+. ├── data │ ├── generated_dataset.csv # Generated dataset ├── scripts │ ├── data_generation.py # Script to generate dataset │ ├── data_analysis.py # Script to analyze data and generate insights ├── visualizations │ ├── demographics_analysis.png # Visualizations of demographics │ ├── program_interest.png # Visualizations of program interest ├── reports │ ├── lead_analysis_report.docx # Final analysis report ├── README.md # Project documentation
+
+---
 
 
 ---
 
-## How to Run the Project
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/lead-analysis.git
-   cd lead-analysis
+## Getting Started
+Follow these steps to set up and run the project on your local system:
 
+### Prerequisites
+- Python 3.7 or higher
+- Libraries: pandas, matplotlib, seaborn
+
+### Installation
+Copy and paste the following code block in your terminal to set up the environment:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/lead-analysis.git
+cd lead-analysis
+
+# Install the required libraries
 pip install pandas matplotlib seaborn
-
-python scripts/data_generation.py
-
-python scripts/data_analysis.py
-
-View Results:
-
-The generated dataset will be saved in the data folder.
-Visualizations will be available in the visualizations folder.
-The summary report is located in the reports folder.
