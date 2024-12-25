@@ -37,6 +37,7 @@ The dataset includes the following columns:
 ---
 
 ## Project Structure
+.
 ├── data
 │   ├── generated_dataset.csv       # Generated dataset
 ├── scripts
@@ -48,6 +49,7 @@ The dataset includes the following columns:
 ├── reports
 │   ├── lead_analysis_report.docx   # Final analysis report
 ├── README.md                       # Project documentation
+
 
 ---
 
